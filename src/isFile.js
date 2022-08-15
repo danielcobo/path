@@ -1,5 +1,5 @@
-var ext = require('./ext.js');
-var dotfile = require('./dotfile.js');
+const ext = require('./ext.js');
+const dotfile = require('./dotfile.js');
 
 module.exports = function isFile(str) {
   if (typeof str !== 'string') {
