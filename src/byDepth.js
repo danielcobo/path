@@ -3,6 +3,7 @@ const rmTrailing = require('@danielcobo/rmTrailing');
 /**
  * Get paths by depth (number of path separators). Shallow to deepest.
  * Will also sort by name, but lexicographically (numbers should be left padded by zero)
+ * @public
  * @param {Array<string>} paths
  * @returns {Array<string>} paths by depth
  */

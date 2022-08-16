@@ -2,6 +2,11 @@ const path = require('path');
 const dotfile = require('./dotfile.js');
 const file = require('./file.js');
 
+/**
+ * Returns tree part of path
+ * @param {string} str - path
+ * @returns {string} - tree
+ */
 module.exports = function tree(str) {
   if (str === '') {
     return str;

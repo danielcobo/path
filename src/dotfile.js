@@ -2,6 +2,7 @@ const path = require('path');
 
 /**
  * Get dotfile in path
+ * @public
  * @param {string} str - path
  * @returns {string} dotfile in path
  */

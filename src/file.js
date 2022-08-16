@@ -2,6 +2,7 @@ const path = require('path');
 
 /**
  * Get filename from path (incl. extension)
+ * @public
  * @param {string} str - path
  * @returns {string} filename
  */

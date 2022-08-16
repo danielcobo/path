@@ -2,6 +2,7 @@ const pathExt = require('./ext.js');
 
 /**
  * Filter by file extension/s or function
+ * @public
  * @param {string|Array<string>} paths
  * @param {string|Array<string>|function} filters
  * @param {boolean} [whitelist=true] - true/false for whitelist/blacklist
