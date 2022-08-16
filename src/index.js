@@ -2,7 +2,7 @@ const path = require('path');
 
 path.byDepth = require('./byDepth.js');
 path.dotfile = require('./dotfile.js');
-path.ext = require('./ext.js');
+path.ext = path.extname;
 path.file = require('./file.js');
 path.filename = path.file;
 path.filter = require('./filter.js');
