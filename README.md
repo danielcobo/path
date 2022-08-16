@@ -87,6 +87,19 @@ path.tree('vanilla/chocolate/mint'); //'vanilla/chocolate/mint'
 For details see documentation below.
 
 ## 📘 Documentation
+### .tree()
+Returns tree part of path
+
+| Name | Type | Default | Description |
+| ---- | ---- | ------- | ----------- |
+| str | `string` |  | Path |
+
+#### Returns
+| Type | Description |
+| ---- | ----------- |
+| `string` | Tree |
+
+<sub>**Source:** [src/tree.js:5](https://github.com/danielcobo/path/blob/master/src/tree.js?plain=1#L5)</sub>
 ### .rmExt()
 Remove file extension
 
@@ -167,13 +180,6 @@ Get filename from path (incl. extension)
 | `string` |  |
 
 <sub>**Source:** [src/file.js:3](https://github.com/danielcobo/path/blob/master/src/file.js?plain=1#L3)</sub>
-### .path.extname()
-Synonym for native path.extname. See https://nodejs.org/api/path.html#pathextnamepath
-
-| Name | Type | Default | Description |
-| ---- | ---- | ------- | ----------- |
-
-<sub>**Source:** [src/ext.js:3](https://github.com/danielcobo/path/blob/master/src/ext.js?plain=1#L3)</sub>
 ### .dotfile()
 Get dotfile in path
 
