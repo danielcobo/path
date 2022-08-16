@@ -1,4 +1,4 @@
-const ext = require('./ext.js');
+const ext = require('path').extname;
 const dotfile = require('./dotfile.js');
 
 /**

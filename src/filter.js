@@ -1,4 +1,4 @@
-const pathExt = require('./ext.js');
+const pathExt = require('path').extname;
 
 /**
  * Filter by file extension/s or function
