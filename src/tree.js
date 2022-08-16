@@ -4,6 +4,7 @@ const file = require('./file.js');
 
 /**
  * Returns tree part of path
+ * @public
  * @param {string} str - path
  * @returns {string} - tree
  */
